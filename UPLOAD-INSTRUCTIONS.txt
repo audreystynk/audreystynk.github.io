@@ -1,0 +1,11 @@
+AUDREYSTYNK WEBSITE
+
+1. Extract the ZIP.
+2. Open the repository: audreystynk.github.io
+3. Click Add file → Upload files.
+4. Upload ALL files and the assets folder.
+5. Commit the changes.
+6. Settings → Pages → Deploy from a branch → main → /(root)
+
+Website:
+https://audreystynk.github.io/

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://audreystynk.github.io/sitemap.xml
