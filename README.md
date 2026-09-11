@@ -2,19 +2,26 @@
 
 ### Style. Detail. Identity.
 
-Professional accessories website in white, green and black.
+Premium white, deep-green and black accessories storefront for GitHub Pages.
 
-Includes:
+## Included
 - Home
-- Shop
+- Shop with category filters and price sorting
+- 5 product detail pages
 - Collections
 - About
 - FAQ
 - Contact
-- Multiple accessory images
-- Responsive mobile layout
-- GitHub Pages support
+- Store Information
+- Checkout preview
+- Working browser-based shopping bag
+- Wishlist
+- Live product search
+- Responsive mobile navigation
+- Multiple optimized accessory images
+- Favicon / app icons
 
-Important: Current product names and prices are demo content for the design. Replace them with verified AudreyStynk inventory before commercial use.
+## Product demo notice
+The five product names, descriptions and prices are sample storefront content. Replace them with verified AudreyStynk inventory and official business terms before commercial launch.
 
 Website: https://audreystynk.github.io/

@@ -2,43 +2,65 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>FAQ — AudreyStynk</title>
-<meta name="description" content="Frequently asked questions about AudreyStynk.">
-<meta name="theme-color" content="#07110b">
+<meta name="description" content="Frequently asked questions about the AudreyStynk storefront.">
+<meta name="theme-color" content="#063d27">
 <meta property="og:title" content="FAQ — AudreyStynk">
-<meta property="og:description" content="Frequently asked questions about AudreyStynk.">
+<meta property="og:description" content="Frequently asked questions about the AudreyStynk storefront.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://audreystynk.github.io/">
-<meta property="og:image" content="https://audreystynk.github.io/assets/hero-accessories.jpg">
+<meta property="og:image" content="https://audreystynk.github.io/assets/hero-editorial.jpg">
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<div class="announcement">AUDREYSTYNK · MODERN ACCESSORIES · STYLE IN EVERY DETAIL</div>
-<header class="header">
-  <a class="brand" href="index.html">Audrey<span>Stynk</span><small>ACCESSORIES</small></a>
-  <button class="menu" aria-expanded="false">Menu</button>
-  <nav><a class="" href="index.html">Home</a><a class="" href="shop.html">Shop</a><a class="" href="collections.html">Collections</a><a class="" href="about.html">About</a><a class="active" href="faq.html">FAQ</a><a class="" href="contact.html">Contact</a></nav>
-  <a class="cta" href="shop.html">Shop Now</a>
+<body data-page="faq">
+<div class="announcement"><span>AUDREYSTYNK · ACCESSORIES FOR A BOLDER YOU</span><span>STYLE · DETAIL · IDENTITY</span></div>
+<header class="site-header">
+  <a class="brand" href="index.html">Audrey<span>Stynk</span><small>MODERN ACCESSORIES</small></a>
+  <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false">Menu</button>
+  <nav class="main-nav"><a class="" href="index.html">Home</a><a class="" href="shop.html">Shop</a><a class="" href="collections.html">Collections</a><a class="" href="about.html">About</a><a class="active" href="faq.html">FAQ</a><a class="" href="contact.html">Contact</a></nav>
+  <div class="header-actions">
+    <button class="icon-btn search-toggle" aria-label="Search">⌕</button>
+    <button class="icon-btn wishlist-toggle" aria-label="Wishlist">♡ <b id="wishCount">0</b></button>
+    <button class="bag-btn" id="bagOpen" aria-label="Open shopping bag">Bag <b id="bagCount">0</b></button>
+  </div>
 </header>
+<div class="search-drawer" id="searchDrawer">
+  <div class="search-box"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search AudreyStynk products..."><button class="search-close" aria-label="Close search">×</button></div>
+  <div id="searchResults" class="search-results"></div>
+</div>
 <main>
-<section class="page-hero"><p class="eyebrow">FAQ</p><h1>Simple answers, clear information.</h1></section>
-<section class="faq">
-<details open><summary>Are the displayed products currently available?</summary><p>The current products are design examples. Replace them with verified AudreyStynk inventory before commercial launch.</p></details>
-<details><summary>Are prices final?</summary><p>No. Prices in this version are demo values for the website design.</p></details>
-<details><summary>How will shipping work?</summary><p>Official shipping areas, costs and delivery times should be added when confirmed.</p></details>
-<details><summary>Can customers pay online?</summary><p>This static version is prepared for future checkout integration but does not process live payments.</p></details>
+<section class="page-hero"><p class="eyebrow">FAQ</p><h1>Professional storefront.<br>Clear expectations.</h1></section>
+<section class="faq-pro">
+ <details open><summary>Are these five products live AudreyStynk inventory?</summary><p>They are sample storefront products for the current website build. Replace the names, pricing and specifications with verified inventory before commercial use.</p></details>
+ <details><summary>Does the shopping bag work?</summary><p>Yes. The demo bag stores selected items in the visitor's browser. It does not submit a real order or payment.</p></details>
+ <details><summary>Does the site accept payments?</summary><p>No live payment processor is connected. The checkout page is a professional front-end demo ready for a future payment integration.</p></details>
+ <details><summary>Can shipping and return policies be added?</summary><p>Yes. Dedicated store-information sections are included and ready for official AudreyStynk terms.</p></details>
 </section>
 </main>
+<section class="newsletter">
+  <div><p class="eyebrow light">THE AUDREYSTYNK EDIT</p><h2>New details. New inspiration.</h2><p>Newsletter signup is ready to connect to your preferred email platform.</p></div>
+  <form onsubmit="return false"><input type="email" placeholder="Email address" aria-label="Email address"><button>Join the Edit</button></form>
+</section>
 <footer>
   <div class="footer-grid">
-    <div><div class="footer-brand">Audrey<span>Stynk</span></div><p>Modern accessories, jewelry, handbags, sunglasses and curated fashion collections.</p></div>
-    <div><strong>Shop</strong><a href="shop.html">All Products</a><a href="collections.html">Collections</a></div>
-    <div><strong>Company</strong><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div>
+    <div><div class="footer-brand">Audrey<span>Stynk</span></div><p>Modern accessories, curated collections and a refined digital shopping experience.</p></div>
+    <div><strong>Shop</strong><a href="shop.html">All Products</a><a href="collections.html">Collections</a><a href="shop.html#handbags">Handbags</a><a href="shop.html#watches">Watches</a></div>
+    <div><strong>Company</strong><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><a href="policies.html">Store Information</a></div>
+    <div><strong>Store Status</strong><span>Shipping terms — ready to add</span><span>Returns policy — ready to add</span><span>Checkout — demo integration</span></div>
   </div>
-  <div class="footer-bottom">© 2026 AudreyStynk. All rights reserved. <span>Style. Detail. Identity.</span></div>
+  <div class="footer-bottom"><span>© 2026 AudreyStynk. All rights reserved.</span><span>Style. Detail. Identity.</span></div>
 </footer>
+<aside class="bag-panel" id="bagPanel" aria-hidden="true">
+ <div class="bag-head"><div><small>YOUR BAG</small><strong>Selected Pieces</strong></div><button id="bagClose">×</button></div>
+ <div class="bag-items" id="bagItems"><p class="empty-state">Your bag is empty.</p></div>
+ <div class="bag-summary"><div><span>Subtotal</span><strong id="bagSubtotal">$0</strong></div><small>Taxes, shipping and live payment processing are not configured in this demo.</small><a class="primary-btn full" href="checkout.html">Review Bag</a></div>
+</aside>
+<div class="page-overlay" id="pageOverlay"></div>
+<div class="toast" id="toast" role="status"></div>
+<script>window.AUDREY_PRODUCTS=[{"id": "signature-tote", "name": "Signature Tote", "category": "Handbags", "price": 149, "image": "assets/signature-tote.jpg", "detail": "assets/signature-tote-detail.jpg", "badge": "New", "material": "Structured finish", "tone": "Deep green", "desc": "A structured statement bag created for polished everyday styling.", "page": "product-signature-tote.html"}, {"id": "noir-frame", "name": "Noir Frame", "category": "Sunglasses", "price": 79, "image": "assets/noir-frame.jpg", "detail": "assets/noir-frame-detail.jpg", "badge": "Popular", "material": "Gloss finish", "tone": "Black / gold-tone", "desc": "Bold frames with a clean silhouette and refined gold-tone accents.", "page": "product-noir-frame.html"}, {"id": "emerald-classic", "name": "Emerald Classic", "category": "Watches", "price": 189, "image": "assets/emerald-classic.jpg", "detail": "assets/emerald-classic-detail.jpg", "badge": "Featured", "material": "Two-tone finish", "tone": "Emerald dial", "desc": "A timeless watch concept with a rich green dial and polished two-tone look.", "page": "product-emerald-classic.html"}, {"id": "clover-bracelet", "name": "Clover Bracelet", "category": "Jewelry", "price": 129, "image": "assets/clover-bracelet.jpg", "detail": "assets/clover-bracelet-detail.jpg", "badge": "New", "material": "Gold-tone finish", "tone": "Green accents", "desc": "A refined bracelet concept with green clover-inspired details.", "page": "product-clover-bracelet.html"}, {"id": "classic-belt", "name": "Classic Belt", "category": "Belts", "price": 69, "image": "assets/classic-belt.jpg", "detail": "assets/classic-belt-detail.jpg", "badge": "", "material": "Smooth finish", "tone": "Black / gold-tone", "desc": "A clean belt concept designed to finish casual and elevated looks.", "page": "product-classic-belt.html"}];</script>
 <script src="script.js"></script>
+
 </body>
 </html>

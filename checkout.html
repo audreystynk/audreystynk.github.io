@@ -3,23 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Contact — AudreyStynk</title>
-<meta name="description" content="Contact AudreyStynk.">
+<title>Review Bag — AudreyStynk</title>
+<meta name="description" content="Review selected AudreyStynk items.">
 <meta name="theme-color" content="#063d27">
-<meta property="og:title" content="Contact — AudreyStynk">
-<meta property="og:description" content="Contact AudreyStynk.">
+<meta property="og:title" content="Review Bag — AudreyStynk">
+<meta property="og:description" content="Review selected AudreyStynk items.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://audreystynk.github.io/">
 <meta property="og:image" content="https://audreystynk.github.io/assets/hero-editorial.jpg">
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body data-page="contact">
+<body data-page="shop">
 <div class="announcement"><span>AUDREYSTYNK · ACCESSORIES FOR A BOLDER YOU</span><span>STYLE · DETAIL · IDENTITY</span></div>
 <header class="site-header">
   <a class="brand" href="index.html">Audrey<span>Stynk</span><small>MODERN ACCESSORIES</small></a>
   <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false">Menu</button>
-  <nav class="main-nav"><a class="" href="index.html">Home</a><a class="" href="shop.html">Shop</a><a class="" href="collections.html">Collections</a><a class="" href="about.html">About</a><a class="" href="faq.html">FAQ</a><a class="active" href="contact.html">Contact</a></nav>
+  <nav class="main-nav"><a class="" href="index.html">Home</a><a class="active" href="shop.html">Shop</a><a class="" href="collections.html">Collections</a><a class="" href="about.html">About</a><a class="" href="faq.html">FAQ</a><a class="" href="contact.html">Contact</a></nav>
   <div class="header-actions">
     <button class="icon-btn search-toggle" aria-label="Search">⌕</button>
     <button class="icon-btn wishlist-toggle" aria-label="Wishlist">♡ <b id="wishCount">0</b></button>
@@ -31,10 +31,10 @@
   <div id="searchResults" class="search-results"></div>
 </div>
 <main>
-<section class="page-hero"><p class="eyebrow">CONTACT</p><h1>Make customer care<br>part of the experience.</h1><p>The contact layout is ready for official email, phone, social channels and service hours.</p></section>
-<section class="contact-pro">
- <form onsubmit="return false"><div class="form-row"><label>Name<input type="text" placeholder="Your name"></label><label>Email<input type="email" placeholder="name@example.com"></label></div><label>Topic<select><option>General question</option><option>Product question</option><option>Order support</option><option>Partnership</option></select></label><label>Message<textarea rows="7" placeholder="Tell us how we can help"></textarea></label><button class="primary-btn" type="submit">Send Message</button><small>Demo form — connect it to an email service or backend before launch.</small></form>
- <aside><p class="eyebrow light">CUSTOMER CARE</p><h2>Official contact details coming soon.</h2><p>Add verified business email, phone number, location, support hours and social profiles here.</p><div class="contact-lines"><span>Email — Coming soon</span><span>Phone — Coming soon</span><span>Social — Coming soon</span></div></aside>
+<section class="page-hero"><p class="eyebrow">YOUR BAG</p><h1>Review your selected pieces.</h1><p>This is a front-end checkout preview. No payment will be processed.</p></section>
+<section class="checkout-layout">
+ <div><h2>Order Summary</h2><div id="checkoutItems" class="checkout-items"></div></div>
+ <aside><h3>Summary</h3><div class="summary-line"><span>Subtotal</span><strong id="checkoutSubtotal">$0</strong></div><div class="summary-line"><span>Shipping</span><span>Not configured</span></div><div class="summary-line"><span>Taxes</span><span>Not configured</span></div><hr><div class="summary-line total"><span>Total</span><strong id="checkoutTotal">$0</strong></div><button class="primary-btn full" type="button">Payment Integration Coming Soon</button><p>No card, bank or personal payment information is collected by this demo.</p></aside>
 </section>
 </main>
 <section class="newsletter">

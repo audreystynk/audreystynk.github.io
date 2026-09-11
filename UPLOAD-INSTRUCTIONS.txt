@@ -1,11 +1,13 @@
-AUDREYSTYNK WEBSITE
+AUDREYSTYNK PREMIUM PROFESSIONAL V3
 
-1. Extract the ZIP.
-2. Open the repository: audreystynk.github.io
-3. Click Add file → Upload files.
-4. Upload ALL files and the assets folder.
-5. Commit the changes.
-6. Settings → Pages → Deploy from a branch → main → /(root)
+1. Extract this ZIP.
+2. Open your GitHub repository: audreystynk.github.io
+3. Delete/replace the old website files if necessary.
+4. Click Add file → Upload files.
+5. Upload ALL files and the complete assets folder from this package.
+6. Commit changes to main.
+7. Settings → Pages → Deploy from a branch → main → /(root).
 
-Website:
-https://audreystynk.github.io/
+Website: https://audreystynk.github.io/
+
+This version includes search, wishlist, shopping bag, filters, sorting, product pages and a checkout preview.

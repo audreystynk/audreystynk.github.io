@@ -2,129 +2,108 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AudreyStynk — Modern Accessories</title>
-<meta name="description" content="Modern accessories, jewelry, handbags, sunglasses and curated fashion collections.">
-<meta name="theme-color" content="#07110b">
-<meta property="og:title" content="AudreyStynk — Modern Accessories">
-<meta property="og:description" content="Modern accessories, jewelry, handbags, sunglasses and curated fashion collections.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AudreyStynk — Premium Accessories</title>
+<meta name="description" content="Modern accessories, handbags, eyewear, watches, jewelry and curated fashion collections.">
+<meta name="theme-color" content="#063d27">
+<meta property="og:title" content="AudreyStynk — Premium Accessories">
+<meta property="og:description" content="Modern accessories, handbags, eyewear, watches, jewelry and curated fashion collections.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://audreystynk.github.io/">
-<meta property="og:image" content="https://audreystynk.github.io/assets/hero-accessories.jpg">
+<meta property="og:image" content="https://audreystynk.github.io/assets/hero-editorial.jpg">
 <link rel="icon" href="favicon.ico">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<div class="announcement">AUDREYSTYNK · MODERN ACCESSORIES · STYLE IN EVERY DETAIL</div>
-<header class="header">
-  <a class="brand" href="index.html">Audrey<span>Stynk</span><small>ACCESSORIES</small></a>
-  <button class="menu" aria-expanded="false">Menu</button>
-  <nav><a class="active" href="index.html">Home</a><a class="" href="shop.html">Shop</a><a class="" href="collections.html">Collections</a><a class="" href="about.html">About</a><a class="" href="faq.html">FAQ</a><a class="" href="contact.html">Contact</a></nav>
-  <a class="cta" href="shop.html">Shop Now</a>
+<body data-page="home">
+<div class="announcement"><span>AUDREYSTYNK · ACCESSORIES FOR A BOLDER YOU</span><span>STYLE · DETAIL · IDENTITY</span></div>
+<header class="site-header">
+  <a class="brand" href="index.html">Audrey<span>Stynk</span><small>MODERN ACCESSORIES</small></a>
+  <button class="mobile-menu" aria-label="Open navigation" aria-expanded="false">Menu</button>
+  <nav class="main-nav"><a class="active" href="index.html">Home</a><a class="" href="shop.html">Shop</a><a class="" href="collections.html">Collections</a><a class="" href="about.html">About</a><a class="" href="faq.html">FAQ</a><a class="" href="contact.html">Contact</a></nav>
+  <div class="header-actions">
+    <button class="icon-btn search-toggle" aria-label="Search">⌕</button>
+    <button class="icon-btn wishlist-toggle" aria-label="Wishlist">♡ <b id="wishCount">0</b></button>
+    <button class="bag-btn" id="bagOpen" aria-label="Open shopping bag">Bag <b id="bagCount">0</b></button>
+  </div>
 </header>
+<div class="search-drawer" id="searchDrawer">
+  <div class="search-box"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search AudreyStynk products..."><button class="search-close" aria-label="Close search">×</button></div>
+  <div id="searchResults" class="search-results"></div>
+</div>
 <main>
-<section class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">ACCESSORIES FOR A BOLDER YOU</p>
-    <h1>Elevate your style with <em>AudreyStynk.</em></h1>
-    <p>A modern accessories brand with a refined green, black and white identity. Discover bags, sunglasses, watches, jewelry and everyday essentials.</p>
-    <div class="actions"><a class="btn green" href="shop.html">Shop Collection</a><a class="btn outline" href="about.html">Our Story</a></div>
-    <div class="mini-stats"><div><b>Modern</b><span>Clean design</span></div><div><b>Curated</b><span>Accessory collections</span></div><div><b>Responsive</b><span>Desktop + mobile</span></div></div>
+<section class="hero-pro">
+  <div class="hero-content">
+    <p class="eyebrow">LUXURY ACCESSORIES · MODERN ATTITUDE</p>
+    <h1>Elevate your<br><em>signature style.</em></h1>
+    <p>Discover a refined accessories edit built around deep green, clean black typography and warm neutral space.</p>
+    <div class="hero-cta"><a class="primary-btn" href="shop.html">Shop the Collection</a><a class="secondary-btn" href="about.html">Discover Our Story</a></div>
+    <div class="hero-facts"><div><b>5</b><span>Featured pieces</span></div><div><b>6</b><span>Accessory categories</span></div><div><b>100%</b><span>Responsive layout</span></div></div>
   </div>
-  <div class="hero-photo"><img src="assets/hero-accessories.jpg" alt="AudreyStynk accessories collection"></div>
+  <div class="hero-visual"><img src="assets/hero-editorial.jpg" alt="AudreyStynk accessories editorial"><div class="visual-tag"><small>THE AUDREYSTYNK EDIT</small><strong>More than accessories.</strong></div></div>
 </section>
 
-<section class="categories">
-  <a href="shop.html"><img src="assets/handbag.jpg" alt="Handbags"><div><span>01</span><h3>Handbags</h3><p>Structured, modern and versatile.</p></div></a>
-  <a href="shop.html"><img src="assets/sunglasses.jpg" alt="Sunglasses"><div><span>02</span><h3>Sunglasses</h3><p>Bold frames for everyday style.</p></div></a>
-  <a href="shop.html"><img src="assets/watch.jpg" alt="Watches"><div><span>03</span><h3>Watches</h3><p>Classic details with modern attitude.</p></div></a>
-  <a href="shop.html"><img src="assets/jewelry.jpg" alt="Jewelry"><div><span>04</span><h3>Jewelry</h3><p>Polished details that stand out.</p></div></a>
+<section class="category-grid">
+  <a href="shop.html#handbags"><img src="assets/cat-handbags.jpg" alt="Handbags"><div><span>01</span><h3>Handbags</h3><p>Structured silhouettes for everyday confidence.</p></div></a>
+  <a href="shop.html#sunglasses"><img src="assets/cat-sunglasses.jpg" alt="Sunglasses"><div><span>02</span><h3>Sunglasses</h3><p>Bold frames with polished character.</p></div></a>
+  <a href="shop.html#watches"><img src="assets/cat-watches.jpg" alt="Watches"><div><span>03</span><h3>Watches</h3><p>Timeless forms with modern green detail.</p></div></a>
+  <a href="shop.html#jewelry"><img src="assets/cat-jewelry.jpg" alt="Jewelry"><div><span>04</span><h3>Jewelry</h3><p>Refined accents made to stand out.</p></div></a>
+  <a href="shop.html#belts"><img src="assets/cat-belts.jpg" alt="Belts"><div><span>05</span><h3>Belts</h3><p>Clean finishing pieces with strong lines.</p></div></a>
+  <a href="collections.html"><img src="assets/cat-small.jpg" alt="Small accessories"><div><span>06</span><h3>Small Accessories</h3><p>Compact essentials with a premium finish.</p></div></a>
 </section>
 
-<section class="section">
-  <div class="section-head"><div><p class="eyebrow">FEATURED PRODUCTS</p><h2>Details that complete the look.</h2></div><p>Demo products and pricing for the design. Replace them with verified AudreyStynk inventory before selling.</p></div>
-  <div class="product-grid">
-<article class="product-card">
-  <div class="product-img"><img src="assets/handbag.jpg" alt="Signature Tote"></div>
-  <div class="product-info">
-    <span>Handbag</span>
-    <h3>Signature Tote</h3>
-    <p>AudreyStynk concept product.</p>
-    <div class="product-bottom"><strong>$149</strong><a href="shop.html">View →</a></div>
-  </div>
-</article>
-
-<article class="product-card">
-  <div class="product-img"><img src="assets/sunglasses.jpg" alt="Noir Frame"></div>
-  <div class="product-info">
-    <span>Sunglasses</span>
-    <h3>Noir Frame</h3>
-    <p>AudreyStynk concept product.</p>
-    <div class="product-bottom"><strong>$79</strong><a href="shop.html">View →</a></div>
-  </div>
-</article>
-
-<article class="product-card">
-  <div class="product-img"><img src="assets/watch.jpg" alt="Emerald Classic"></div>
-  <div class="product-info">
-    <span>Watch</span>
-    <h3>Emerald Classic</h3>
-    <p>AudreyStynk concept product.</p>
-    <div class="product-bottom"><strong>$189</strong><a href="shop.html">View →</a></div>
-  </div>
-</article>
-
-<article class="product-card">
-  <div class="product-img"><img src="assets/jewelry.jpg" alt="Golden Detail"></div>
-  <div class="product-info">
-    <span>Jewelry</span>
-    <h3>Golden Detail</h3>
-    <p>AudreyStynk concept product.</p>
-    <div class="product-bottom"><strong>$59</strong><a href="shop.html">View →</a></div>
-  </div>
-</article>
-
-<article class="product-card">
-  <div class="product-img"><img src="assets/belt.jpg" alt="Classic Belt"></div>
-  <div class="product-info">
-    <span>Belt</span>
-    <h3>Classic Belt</h3>
-    <p>AudreyStynk concept product.</p>
-    <div class="product-bottom"><strong>$69</strong><a href="shop.html">View →</a></div>
-  </div>
-</article>
-
-<article class="product-card">
-  <div class="product-img"><img src="assets/wallet.jpg" alt="Daily Cardholder"></div>
-  <div class="product-info">
-    <span>Wallet</span>
-    <h3>Daily Cardholder</h3>
-    <p>AudreyStynk concept product.</p>
-    <div class="product-bottom"><strong>$49</strong><a href="shop.html">View →</a></div>
-  </div>
-</article></div>
+<section class="section featured">
+ <div class="section-title"><div><p class="eyebrow">FEATURED PRODUCTS</p><h2>Details that complete the look.</h2></div><div><p>Five sample products with working cart, wishlist and product pages.</p><a href="shop.html">Shop all products →</a></div></div>
+ <div class="products-grid"><article class="product-card" data-id="signature-tote" data-category="handbags" data-name="signature tote" data-price="149">
+      <div class="product-media"><span class="badge">New</span><button class="heart-btn" data-wish="signature-tote" aria-label="Save Signature Tote">♡</button><a href="product-signature-tote.html"><img src="assets/signature-tote.jpg" alt="Signature Tote"></a><a class="quick-view" href="product-signature-tote.html">View Details</a></div>
+      <div class="product-copy"><span>Handbags</span><h3><a href="product-signature-tote.html">Signature Tote</a></h3><p>A structured statement bag created for polished everyday styling.</p><div class="product-meta"><strong>$149</strong><button class="add-btn" data-add="signature-tote">Add to Bag</button></div></div>
+    </article><article class="product-card" data-id="noir-frame" data-category="sunglasses" data-name="noir frame" data-price="79">
+      <div class="product-media"><span class="badge">Popular</span><button class="heart-btn" data-wish="noir-frame" aria-label="Save Noir Frame">♡</button><a href="product-noir-frame.html"><img src="assets/noir-frame.jpg" alt="Noir Frame"></a><a class="quick-view" href="product-noir-frame.html">View Details</a></div>
+      <div class="product-copy"><span>Sunglasses</span><h3><a href="product-noir-frame.html">Noir Frame</a></h3><p>Bold frames with a clean silhouette and refined gold-tone accents.</p><div class="product-meta"><strong>$79</strong><button class="add-btn" data-add="noir-frame">Add to Bag</button></div></div>
+    </article><article class="product-card" data-id="emerald-classic" data-category="watches" data-name="emerald classic" data-price="189">
+      <div class="product-media"><span class="badge">Featured</span><button class="heart-btn" data-wish="emerald-classic" aria-label="Save Emerald Classic">♡</button><a href="product-emerald-classic.html"><img src="assets/emerald-classic.jpg" alt="Emerald Classic"></a><a class="quick-view" href="product-emerald-classic.html">View Details</a></div>
+      <div class="product-copy"><span>Watches</span><h3><a href="product-emerald-classic.html">Emerald Classic</a></h3><p>A timeless watch concept with a rich green dial and polished two-tone look.</p><div class="product-meta"><strong>$189</strong><button class="add-btn" data-add="emerald-classic">Add to Bag</button></div></div>
+    </article><article class="product-card" data-id="clover-bracelet" data-category="jewelry" data-name="clover bracelet" data-price="129">
+      <div class="product-media"><span class="badge">New</span><button class="heart-btn" data-wish="clover-bracelet" aria-label="Save Clover Bracelet">♡</button><a href="product-clover-bracelet.html"><img src="assets/clover-bracelet.jpg" alt="Clover Bracelet"></a><a class="quick-view" href="product-clover-bracelet.html">View Details</a></div>
+      <div class="product-copy"><span>Jewelry</span><h3><a href="product-clover-bracelet.html">Clover Bracelet</a></h3><p>A refined bracelet concept with green clover-inspired details.</p><div class="product-meta"><strong>$129</strong><button class="add-btn" data-add="clover-bracelet">Add to Bag</button></div></div>
+    </article><article class="product-card" data-id="classic-belt" data-category="belts" data-name="classic belt" data-price="69">
+      <div class="product-media"><button class="heart-btn" data-wish="classic-belt" aria-label="Save Classic Belt">♡</button><a href="product-classic-belt.html"><img src="assets/classic-belt.jpg" alt="Classic Belt"></a><a class="quick-view" href="product-classic-belt.html">View Details</a></div>
+      <div class="product-copy"><span>Belts</span><h3><a href="product-classic-belt.html">Classic Belt</a></h3><p>A clean belt concept designed to finish casual and elevated looks.</p><div class="product-meta"><strong>$69</strong><button class="add-btn" data-add="classic-belt">Add to Bag</button></div></div>
+    </article></div>
+ <p class="demo-note">Product names, details and prices in this build are sample storefront content. Replace them with verified AudreyStynk inventory before commercial launch.</p>
 </section>
 
-<section class="editorial">
-  <img src="assets/banner-style.jpg" alt="AudreyStynk fashion styling">
-  <div><p class="eyebrow light">THE AUDREYSTYNK EDIT</p><h2>Every detail tells a better story.</h2><p>Build collections around pieces that feel intentional, versatile and memorable.</p><a class="btn green" href="collections.html">Discover Collections</a></div>
+<section class="intense-band">
+  <div><p class="eyebrow light">A STRONGER BRAND MOMENT</p><h2>Deep green. Warm white. Black type. Gold detail.</h2><p>The site now carries the same AudreyStynk palette with more depth, contrast and premium visual structure.</p></div>
+  <div class="band-stats"><article><b>01</b><strong>Search</strong><span>Live product discovery</span></article><article><b>02</b><strong>Wishlist</strong><span>Saved in your browser</span></article><article><b>03</b><strong>Bag</strong><span>Persistent cart experience</span></article><article><b>04</b><strong>Mobile</strong><span>Responsive navigation</span></article></div>
 </section>
 
-<section class="trust">
-  <article><b>01</b><h3>Clear Product Details</h3><p>Materials, dimensions and specifications can be added once verified.</p></article>
-  <article><b>02</b><h3>Professional Presentation</h3><p>Modern product cards, categories and editorial sections.</p></article>
-  <article><b>03</b><h3>Checkout Ready</h3><p>Prepared for future cart and payment integrations.</p></article>
-  <article><b>04</b><h3>Mobile First</h3><p>Responsive structure for phones, tablets and desktops.</p></article>
+<section class="story-split">
+  <div class="story-image"><img src="assets/editorial-wide.jpg" alt="AudreyStynk editorial collection"></div>
+  <div class="story-copy"><p class="eyebrow">MORE THAN ACCESSORIES</p><h2>Build the look around the detail.</h2><p>AudreyStynk is presented as a focused accessories destination, with stronger product hierarchy, richer editorial sections and cleaner shopping interactions.</p><a class="text-link" href="collections.html">Explore collections →</a></div>
 </section>
 </main>
+<section class="newsletter">
+  <div><p class="eyebrow light">THE AUDREYSTYNK EDIT</p><h2>New details. New inspiration.</h2><p>Newsletter signup is ready to connect to your preferred email platform.</p></div>
+  <form onsubmit="return false"><input type="email" placeholder="Email address" aria-label="Email address"><button>Join the Edit</button></form>
+</section>
 <footer>
   <div class="footer-grid">
-    <div><div class="footer-brand">Audrey<span>Stynk</span></div><p>Modern accessories, jewelry, handbags, sunglasses and curated fashion collections.</p></div>
-    <div><strong>Shop</strong><a href="shop.html">All Products</a><a href="collections.html">Collections</a></div>
-    <div><strong>Company</strong><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a></div>
+    <div><div class="footer-brand">Audrey<span>Stynk</span></div><p>Modern accessories, curated collections and a refined digital shopping experience.</p></div>
+    <div><strong>Shop</strong><a href="shop.html">All Products</a><a href="collections.html">Collections</a><a href="shop.html#handbags">Handbags</a><a href="shop.html#watches">Watches</a></div>
+    <div><strong>Company</strong><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="contact.html">Contact</a><a href="policies.html">Store Information</a></div>
+    <div><strong>Store Status</strong><span>Shipping terms — ready to add</span><span>Returns policy — ready to add</span><span>Checkout — demo integration</span></div>
   </div>
-  <div class="footer-bottom">© 2026 AudreyStynk. All rights reserved. <span>Style. Detail. Identity.</span></div>
+  <div class="footer-bottom"><span>© 2026 AudreyStynk. All rights reserved.</span><span>Style. Detail. Identity.</span></div>
 </footer>
+<aside class="bag-panel" id="bagPanel" aria-hidden="true">
+ <div class="bag-head"><div><small>YOUR BAG</small><strong>Selected Pieces</strong></div><button id="bagClose">×</button></div>
+ <div class="bag-items" id="bagItems"><p class="empty-state">Your bag is empty.</p></div>
+ <div class="bag-summary"><div><span>Subtotal</span><strong id="bagSubtotal">$0</strong></div><small>Taxes, shipping and live payment processing are not configured in this demo.</small><a class="primary-btn full" href="checkout.html">Review Bag</a></div>
+</aside>
+<div class="page-overlay" id="pageOverlay"></div>
+<div class="toast" id="toast" role="status"></div>
+<script>window.AUDREY_PRODUCTS=[{"id": "signature-tote", "name": "Signature Tote", "category": "Handbags", "price": 149, "image": "assets/signature-tote.jpg", "detail": "assets/signature-tote-detail.jpg", "badge": "New", "material": "Structured finish", "tone": "Deep green", "desc": "A structured statement bag created for polished everyday styling.", "page": "product-signature-tote.html"}, {"id": "noir-frame", "name": "Noir Frame", "category": "Sunglasses", "price": 79, "image": "assets/noir-frame.jpg", "detail": "assets/noir-frame-detail.jpg", "badge": "Popular", "material": "Gloss finish", "tone": "Black / gold-tone", "desc": "Bold frames with a clean silhouette and refined gold-tone accents.", "page": "product-noir-frame.html"}, {"id": "emerald-classic", "name": "Emerald Classic", "category": "Watches", "price": 189, "image": "assets/emerald-classic.jpg", "detail": "assets/emerald-classic-detail.jpg", "badge": "Featured", "material": "Two-tone finish", "tone": "Emerald dial", "desc": "A timeless watch concept with a rich green dial and polished two-tone look.", "page": "product-emerald-classic.html"}, {"id": "clover-bracelet", "name": "Clover Bracelet", "category": "Jewelry", "price": 129, "image": "assets/clover-bracelet.jpg", "detail": "assets/clover-bracelet-detail.jpg", "badge": "New", "material": "Gold-tone finish", "tone": "Green accents", "desc": "A refined bracelet concept with green clover-inspired details.", "page": "product-clover-bracelet.html"}, {"id": "classic-belt", "name": "Classic Belt", "category": "Belts", "price": 69, "image": "assets/classic-belt.jpg", "detail": "assets/classic-belt-detail.jpg", "badge": "", "material": "Smooth finish", "tone": "Black / gold-tone", "desc": "A clean belt concept designed to finish casual and elevated looks.", "page": "product-classic-belt.html"}];</script>
 <script src="script.js"></script>
+
 </body>
 </html>
